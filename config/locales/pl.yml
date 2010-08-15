@@ -43,6 +43,7 @@ pl:
     others: 'Inne'
     regenerate_all_thumbnails: 'Z tego miejsca możesz na nowo wygenerować wszystkie miniatury. Miej na uwadze to, że zajmie to chwilę i obciąży serwer.'
     regenerate: 'Wygeneruj na nowo'
+    regenerate_warning: 'Miej na uwadze to, że zajmie to chwilę i obciąży serwer.'
     regenerate_thumbnails: 'Z tego miejsca możesz na nowo wygenerować miniaturę tego załącznika. Miej na uwadze to, że zajmie to chwilę i obciąży serwer.'
     remove_asset: 'Usuń Załącznik'
     remove_from_page: 'Usuń ze strony'

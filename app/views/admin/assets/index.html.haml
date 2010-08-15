@@ -25,7 +25,7 @@
             = check_box_tag 'filter[movie]',  '1', false, :id => 'movies-check'
         - if false #current_user.admin? # turned off for now, this might be too dangerous to reveal
           .regenerator
-            = link_to t('paperclipped.regenerate_all_thumbnails') , refresh_admin_assets_path, :confirm => 'Beware that this will take a while and consume considerable resources on your server. Are you sure you want to continue?'
+            = link_to t('paperclipped.regenerate_all_thumbnails') , refresh_admin_assets_path, :confirm => t('paperclipped.regenerate_warning')
   #assets_table
     = render :partial => 'asset_table', :locals => { :assets => @assets }
 
